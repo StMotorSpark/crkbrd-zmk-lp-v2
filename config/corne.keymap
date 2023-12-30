@@ -62,6 +62,20 @@
                         bindings = <
                 &kp ESC   &kp Q &kp W &kp E &kp N1 &kp N2   &trans &trans  &trans     &trans   &trans    &trans
                 &kp TAB &kp A &kp S &kp D &kp N3 &kp N4   &trans &trans  &trans     &trans   &trans &trans
+                &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0   &trans &trans  &trans &trans &trans &trans
+                                   &kp V &mo 4 &kp SPACE   &trans &to 0 &trans
+                        >;
+                };
+
+                game_layer2 {
+// -----------------------------------------------------------------------------------------
+// |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+                &kp ESC   &kp Q &kp W &kp E &kp F1 &kp F2   &trans &trans  &trans     &trans   &trans    &trans
+                &kp TAB &kp A &kp S &kp D &kp F3 &kp F4   &trans &trans  &trans     &trans   &trans &trans
                 &kp F &kp F1 &kp F2 &kp F3 &kp F4 &kp N6   &trans &trans  &trans &trans &trans &trans
                                    &kp F &kp N0 &kp SPACE   &trans &to 0 &trans
                         >;
